@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <title>bikefritz</title>
+
+    <link rel="icon" href="assets/images/favicon.ico">
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+<header>
+    <div class="navbar-fixed">
+        <nav class="blue-grey" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo"><img src="assets/images/bikefritz_logo.png"
+                                                                                 height="50px"
+                                                                                 style="margin-top: 5px"></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#radltreff">RADLTREFF</a></li>
+                    <li><a href="angebote.html">ANGEBOTE <span class="badge red accent-3"
+                                                               style="font-weight: 300; font-size: 0.8rem; color: #fff; background-color: #26a69a; border-radius: 2px;"
+                                                               id="sale_badge">neu</span></a>
+                    </li>
+                    <li><a href="#nav">ANFAHRT</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#radltreff">RADLTREFF</a></li>
+                    <li><a href="angebote.html">ANGEBOTE</a></li>
+                    <li><a href="#nav">ANFAHRT</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+
+                <!-- Begin: Big Logo & News -->
+                <div class="card-panel scrollspy section z-depth-2" id="news"
+                     style="background: url('assets/images/bikefritz4.png') no-repeat center; background-size: cover; ">
+                    <div class="row" style="margin-right: 10px; opacity: 0.9">
+
+                        <!-- News #1 -->
+
+                        <!--<div class="card-panel blue-grey col s8 offset-s4 m4 offset-m8 white-text news-card">
+                            <span style="font-weight: bold">Bikes fit machen</span><br>
+                            <span style="font-size: 11px"><i class="material-icons tiny" style="position:relative; top: 2px">event</i> 13. März 2016</span>
+
+                            <div class="divider"></div>
+                            <span style="text-align: justify">Bringt eure Bikes am besten jetzt zum Service damit ihr zum Saisonstart entspannt losfahren könnt ohne lange Wartezeiten.</span>
+                        </div>-->
+
+                        <!-- News #2 -->
+                        <a href="angebote.html">
+                            <div class="card-panel blue-grey col s8 offset-s4 m4 offset-m8 white-text news-card">
+                                <span style="font-weight: bold">Midseasonangebote</span><br>
+                                <span style="font-size: 11px"><i class="material-icons tiny"
+                                                                 style="position:relative; top: 2px">event</i> 2. Juli 2016</span>
+
+                                <div class="divider"></div>
+                                <span style="text-align: justify; display: block">Wir verkaufen unsere Testbikes: z.B. Pedelecs, E-mountainbikes, Rennräder, Mountainbikes, Crossbikes, Trekkingräder; <br>
+                                    aktuelle Modelle und teilweise noch 2015er Modelle zu absoluten Tiefpreisen.<br>
+                                    Bitte aktuellen Lagerbestand und Verfügbarkeit abfragen: call 0171/5208015 </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- End: Big Logo & News -->
+
+                <!-- Begin: Info -->
+                <div class="section scrollspy" id="info">
+                    <div class="row">
+                        <div class="col s12 m4">
+                            <div class="card info-card">
+                                <div class="icon-block">
+                                    <h2 class="center light-blue-text"><i class="material-icons">flash_on</i></h2>
+                                </div>
+                                <h5 class="center">Service</h5>
+
+                                <div class="card-content">
+                                    <p style="text-align: justify">Gerne beraten wir Sie zu Ihrem neuen Rad und bieten
+                                        Probefahrten, damit Sie bestimmt lange Freude daran haben.
+                                        Sei es Mountainbike, Pedelec, Renn-, Stadt- oder Crossrad! Außerdem bieten wir
+                                        Fahrradservice und jegliche Reparaturen. Im Shop finden Sie außerdem
+                                        Fahrradteile, Bikezubehör, Helme, Trikots und Schuhe.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card info-card">
+                                <div class="icon-block">
+                                    <h2 class="center light-blue-text"><i class="material-icons">query_builder</i></h2>
+                                </div>
+                                <h5 class="center">Öffnungszeiten</h5>
+
+                                <div class="card-content">
+                                    <table id="openings">
+                                        <tbody>
+                                        <tr>
+                                            <td>Montag</td>
+                                            <td>17.30 - 20 Uhr</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dienstag</td>
+                                            <td>Ruhetag</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mittwoch</td>
+                                            <td>Ruhetag</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Donnerstag</td>
+                                            <td>17.30 - 20 Uhr</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Freitag</td>
+                                            <td>17 - 20 Uhr</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Samstag</td>
+                                            <td>10 - 14 Uhr</td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!--<div class="card-action">
+                                    <a href="#">Mehr</a>
+                                </div>-->
+                            </div>
+                        </div>
+                        <div class="col s12 m4">
+                            <div class="card info-card">
+                                <div class="icon-block">
+                                    <h2 class="center light-blue-text"><i class="material-icons">contacts</i></h2>
+                                </div>
+                                <h5 class="center">Kontakt</h5>
+
+                                <div class="card-content">
+                                    <p>Bikefritz<br>
+                                        Gutenbergstraße 5<br>
+                                        85354 Freising</p>
+
+                                    <p style="margin-top: 20px">Tel/Fax: 08161-91 99 82<br>
+                                        Handy: 0171-520 8015<br>
+                                        Email: <a href="mailto:bikefritz@t-online.de">bikefritz@t-online.de</a>
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Info -->
+
+                <!-- Begin: Card1 -->
+                <div class="section scrollspy" id="marken">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/images/001_opt.png">
+                                    <span class="card-title" style="font-weight: bold">Willkommen bei bikefritz</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>In unserem Shop vertreten wir unter anderem die Marken Stevens, Müsing, Checker,
+                                        Pig, Burley, KED und Shimano, weiterhin führen wir diverse Bikeparts und
+                                        Zubehörartikel anderer Hersteller.
+                                        <br>
+                                        Wir sind selber aktive Rennradler, Mountainbiker, Alpencrosser und Isarrider mit
+                                        und ohne Kinderanhänger und wissen daher wovon wir sprechen.</p>
+                                </div>
+                                <div class="card-action">
+                                    <div class="chip">
+                                        <a href="http://www.stevensbikes.de/">Stevens</a>
+                                    </div>
+                                    <div class="chip">
+                                        <a href="https://www.muesing-bikes.de">Müsing</a>
+                                    </div>
+                                    <div class="chip">
+                                        <a href="http://www.checker-pig.com/">Checker Pig</a>
+                                    </div>
+                                    <div class="chip">
+                                        <a href="http://www.burley.de/">Burley</a>
+                                    </div>
+                                    <div class="chip">
+                                        <a href="http://www.ked-helmsysteme.de/">KED</a>
+                                    </div>
+                                    <div class="chip">
+                                        <a href="http://cycle.shimano-eu.com/">Shimano</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Card1 -->
+
+                <!-- Begin: Card2 -->
+                <div class="section scrollspy" id="angebote">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card offers">
+                                <div class="card-image">
+                                    <img src="assets/images/002.png">
+                                    <span class="card-title" style="font-weight: bold">Aktuelle Angebote</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>Auf unserer Homepage finden Sie oft aktuelle Angebote und Aktionen. Außerdem
+                                        haben wir noch einige Testbikes mit wenigen Kilometern und in absolut
+                                        neuwertigem Zustand im Angebot. Aber nur solange der Vorrat reicht. Also so bald
+                                        wie möglich vorbeikommen.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="blue white-text waves-effect waves-light btn" href="angebote.html"
+                                       id="to_sale">
+                                        <i class="material-icons left">forward</i>ZU DEN ANGEBOTEN</a>
+
+                                    <div class="chip">
+                                        Sonderangebote
+                                    </div>
+                                    <div class="chip">
+                                        Testbikes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Card2 -->
+
+                <!-- Begin: Card3 -->
+                <div class="section scrollspy" id="radltreff">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="assets/images/radltreff2.png">
+                                    <span class="card-title" style="font-weight: bold">Radltreff</span>
+                                </div>
+                                <div class="card-content">
+                                    <p>Seit dieser Saison startet das Team bikefritz in neuen Trikots.
+                                        40 bikefritz-Radler und sogar mehr treffen sich jeden Dienstagabend am Shop zur
+                                        gemeinsamen Ausfahrt.</p>
+                                </div>
+                                <div class="card-action">
+                                    <div class="chip">
+                                        Rennrad
+                                    </div>
+                                    <div class="chip">
+                                        Dienstags
+                                    </div>
+                                    <div class="chip">
+                                        Gesellige Gruppenausfahrt
+                                    </div>
+                                    <div class="chip">
+                                        3 Gruppen
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End: Card3 -->
+
+                <!-- Begin: Map -->
+                <div class="section scrollspy" id="nav">
+                    <div class="z-depth-1">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5298.980832426056!2d11.734749607849322!3d48.38952449293579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e6b1643f7d5d7%3A0x97af9791155a5da9!2sGutenbergstra%C3%9Fe+5%2C+85354+Freising!5e0!3m2!1sde!2sde!4v1443144907793"
+                                width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <!-- End: Map -->
+            </div>
+            <!-- col end -->
+
+            <!-- Begin: Scrollspy -->
+            <div class="col hide-on-small-only m1 l1" style="position:fixed; top: 60px; right: 0; width: 190px">
+                <ul class="section table-of-contents">
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#info">Info</a></li>
+                    <li><a href="#marken">Marken</a></li>
+                    <li><a href="#angebote">Angebote</a></li>
+                    <li><a href="#radltreff">Radltreff</a></li>
+                    <li><a href="#nav">Anfahrt</a></li>
+                </ul>
+            </div>
+            <!-- End: Scrollspy -->
+
+        </div>
+        <!-- row end -->
+    </div>
+    <!-- container end -->
+</main>
+
+
+<footer class="page-footer blue-grey darken-1">
+    <div class="container">
+        <div class="row">
+            <div class="col s8 l6">
+                <h5 class="white-text">bikefritz </h5>
+
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img class="avatar circle" src="assets/images/fritz.png"
+                             style="margin-left: 10px; margin-top: 20px; height: 80px">
+                    </div>
+                    <div class="col s12 m8">
+                        <p class="grey-text text-lighten-4" style="text-align: justify">
+                            Ihr Bikeshop in Freising - seit 1998<br>
+                            Bei Fragen rund um's Rad ist Fritz Ansprechpartner erster Wahl und unterstützt
+                            mit Sachverstand, denn er ist langjähriger Mountainbiker, Rennradler und Tourenfahrer und
+                            auch mit Kinderanhänger erprobt.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col s4 l3 offset-l2">
+                <h5 class="white-text">Über uns</h5>
+                <ul style="margin-top: 20px; margin-bottom: 20px">
+                    <li><a class="white-text" href="impressum.html">Impressum</a></li>
+                    <li><a class="white-text" href="index.html#info">Kontakt</a></li>
+                    <li><a class="white-text" href="index.html#info">Öffnungszeiten</a></li>
+                    <li><a class="white-text" href="index.html#nav">Anfahrt</a></li>
+                </ul>
+            </div>
+            <!--<div class="col l3 s12">
+                <h5 class="white-text">Unsere Marken</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Stevens</a></li>
+                    <li><a class="white-text" href="#!">Müsing</a></li>
+                    <li><a class="white-text" href="#!">Link 3</a></li>
+                    <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul>
+            </div>-->
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2015 <a class="blue-text text-lighten-3" href="mailto:maxi.birkner@mytum.de">Max Birkner</a>
+        </div>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="assets/js/materialize.js"></script>
+<script src="assets/js/init.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.scrollspy').scrollSpy();
+    });
+</script>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-75288130-1', 'auto');
+    ga('send', 'pageview');
+
+</script>
+</body>
+</html>

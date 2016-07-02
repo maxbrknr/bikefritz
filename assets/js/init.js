@@ -1,0 +1,31 @@
+"use strict";
+
+// Global variables
+var current_sale = "Midseasonangebote";
+var new_offers = "3";
+
+
+var currSaleElement = document.getElementById('to_sale');
+if (typeof(currSaleElement) != 'undefined' && currSaleElement != null) {
+    currSaleElement.innerHTML = "ZUM " + current_sale.toUpperCase();
+}
+
+var badgeElement = document.getElementById('sale_badge');
+if (typeof(badgeElement) != 'undefined' && badgeElement != null) {
+    badgeElement.innerHTML = new_offers + " neu";
+}
+
+var currSaleElementArr = document.getElementsByClassName("current_sale");
+for (var i = 0; i < currSaleElementArr.length; i++) {
+    currSaleElementArr[i].innerHTML = current_sale;
+}
+
+//document.getElementById("to_sale_scrollspy").innerHTML = current_sales;
+
+(function ($) {
+    $(function () {
+
+        $('.button-collapse').sideNav();
+
+    }); // end of document ready
+})(jQuery); // end of jQuery name space

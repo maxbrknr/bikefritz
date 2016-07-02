@@ -1,0 +1,61 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.news-card {
+
+}
+
+.news-card:hover {
+    box-shadow: 3px 3px 15px #666;
+    background: #b0bec5 !important;
+    color: #000 !important;
+    cursor: pointer;
+
+    /*Opacity*/
+    zoom: 1;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.info-card {
+    height: 380px;
+}
+
+#openings td {
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+
+.service-card li {
+    list-style-type: disc;
+    margin-top: 0;
+    margin-botton: 0;
+}
+
+.service-card {
+    margin-top: 0;
+    margin-botton: 0;
+}
+
+ul.service-card {
+    margin-top: 0;
+    margin-botton: 0;
+}
+
+.offer {
+    margin-top: 14px;
+    background-color: rgb(3, 169, 244) !important;
+}
