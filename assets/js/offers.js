@@ -7,161 +7,61 @@ var offers = [];
 
 offers.push(
     {
-        'section': "E-Bikes",
-        'title': "E-Lavena Lady 500, 50cm",
-        'info': "",
-        'price': "2799",
-        'sale': "2299"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Bikes",
-        'title': "E-Lavena Forma 46cm",
+        'section': "E-Mountainbikes",
+        'title': "E-Wave 16\"",
         'info': "",
         'price': "2299",
-        'sale': "1899"
+        'sale': "1990"
     }
 );
 
 offers.push(
     {
         'section': "E-Mountainbikes",
-        'title': "E-Wave 16\" und 22\"",
+        'title': "E-Cayolle 20\"",
         'info': "",
-        'price': "2299",
-        'sale': "1899"
+        'price': "2999",
+        'sale': "2599"
     }
 );
 
 offers.push(
     {
         'section': "E-Mountainbikes",
-        'title': "E-Cayolle 16\" und 18\"",
+        'title': "E-Stoke-Lady 16\"",
         'info': "",
-        'price': "2799",
-        'sale': "2299"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Mountainbikes",
-        'title': "E-Agnello16\", 18\" und 20\"",
-        'info': "",
-        'price': "3599",
-        'sale': "2699"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Crossbike",
-        'title': "6X gent, 55cm",
-        'info': "",
-        'price': "2699",
+        'price': "2499",
         'sale': "2199"
     }
 );
 
 offers.push(
     {
-        'section': "Rennräder",
-        'title': "Arcalis 56cm, kompl. Ultegra mit Shimano Scheibenbremse",
+        'section': "E-Crossbike",
+        'title': "E-6X 55cm",
         'info': "",
         'price': "2699",
-        'sale': "2099"
+        'sale': "2299"
     }
 );
 
 offers.push(
     {
-        'section': "Rennräder",
-        'title': "Stelvio 52cm, kompl 105er",
-        'info': "",
-        'price': "1299",
-        'sale': "1099"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTBs",
-        'title': "Tonga",
-        'info': "",
-        'price': "649",
-        'sale': "529"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTBs",
-        'title': "Taniwha",
-        'info': "",
-        'price': "749",
-        'sale': "619"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTBs",
-        'title': "Devil's Trail",
-        'info': "",
-        'price': "1199",
-        'sale': "999"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTBs",
-        'title': "Tremalzo",
+        'section': "Rennrad",
+        'title': "Izoard 2017, Vollcarbonrahmen mit kompletter Shimano 105 Gruppe",
         'info': "",
         'price': "1799",
-        'sale': "1399"
+        'sale': "1350"
     }
 );
 
 offers.push(
     {
-        'section': "Trekking- und Tourenräder",
-        'title': "4xlite Tour",
+        'section': "Testbike",
+        'title': "E-Agnello 20\"",
         'info': "",
-        'price': "799",
-        'sale': "599"
-    }
-);
-
-offers.push(
-    {
-        'section': "Trekking- und Tourenräder",
-        'title': "6xlite Tour",
-        'info': "",
-        'price': "999",
-        'sale': "790"
-    }
-);
-
-offers.push(
-    {
-        'section': "Trekking- und Tourenräder",
-        'title': "Jazz Lady",
-        'info': "",
-        'price': "699",
-        'sale': "550"
-    }
-);
-
-offers.push(
-    {
-        'section': "Trekking- und Tourenräder",
-        'title': "Savoye Forma",
-        'info': "",
-        'price': "899",
-        'sale': "699"
+        'price': "3599",
+        'sale': "2690"
     }
 );
 

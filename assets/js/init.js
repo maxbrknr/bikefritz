@@ -1,8 +1,8 @@
 "use strict";
 
 // Global variables
-var current_sale = "Herbstpreise 2017";
-var new_offers = "16";
+var current_sale = "Sommerangebote 2018";
+var new_offers = "6";
 
 
 var currSaleElement = document.getElementById('to_sale');
