@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9adb300-a841-4be1-9cf7-febf5d6000fa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angebote.html" beforeDir="false" afterPath="$PROJECT_DIR$/angebote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/materialize.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/materialize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/materialize.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/materialize.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/font/material-design-icons/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/material-design-icons/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/font/material-design-icons/Material-Design-Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/font/material-design-icons/Material-Design-Icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/002.psd" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/002.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/materialize.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/materialize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/materialize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/materialize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/offers.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/offers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="c9adb300-a841-4be1-9cf7-febf5d6000fa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,8 +23,8 @@
       <file leaf-file-name="init.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+            <state relative-caret-position="221">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -150,14 +135,16 @@
       <workItem from="1525290210678" duration="83000" />
       <workItem from="1525290303019" duration="249000" />
       <workItem from="1525513521586" duration="39000" />
+      <workItem from="1525516156024" duration="235000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="371000" />
+    <option name="totallyTimeSpent" value="606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="254" y="0" width="1670" height="1046" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2089372" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -185,6 +172,36 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="73" column="81" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/materialize.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/offers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -240,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
+        <state relative-caret-position="221">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
         </state>
       </provider>
     </entry>
