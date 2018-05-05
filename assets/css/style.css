@@ -14,10 +14,6 @@
     font-size: inherit;
 }
 
-.news-card {
-
-}
-
 .news-card:hover {
     box-shadow: 3px 3px 15px #666;
     background: #b0bec5 !important;

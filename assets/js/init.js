@@ -1,13 +1,13 @@
 "use strict";
 
 // Global variables
-var current_sale = "Midseasonangebote";
-var new_offers = "3";
+var current_sale = "Herbstpreise 2017";
+var new_offers = "16";
 
 
 var currSaleElement = document.getElementById('to_sale');
 if (typeof(currSaleElement) != 'undefined' && currSaleElement != null) {
-    currSaleElement.innerHTML = "ZUM " + current_sale.toUpperCase();
+    currSaleElement.innerHTML = "ZU " + current_sale.toUpperCase();
 }
 
 var badgeElement = document.getElementById('sale_badge');
@@ -25,7 +25,7 @@ for (var i = 0; i < currSaleElementArr.length; i++) {
 (function ($) {
     $(function () {
 
-        $('.button-collapse').sideNav();
+        $('.button-collapse').sideNav({'edge': 'left'});
 
     }); // end of document ready
 })(jQuery); // end of jQuery name space
