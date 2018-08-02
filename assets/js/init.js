@@ -2,7 +2,7 @@
 
 // Global variables
 var current_sale = "Sommerangebote 2018";
-var new_offers = "6";
+var new_offers = "0";
 
 
 var currSaleElement = document.getElementById('to_sale');

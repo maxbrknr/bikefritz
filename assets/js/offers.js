@@ -5,7 +5,7 @@
 
 var offers = [];
 
-offers.push(
+/*offers.push(
     {
         'section': "E-Mountainbikes",
         'title': "E-Wave 16\"",
@@ -63,7 +63,7 @@ offers.push(
         'price': "3599",
         'sale': "2690"
     }
-);
+);*/
 
 // create array of arrays sorted by section
 
