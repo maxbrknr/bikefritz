@@ -5,65 +5,65 @@
 
 var offers = [];
 
-/*offers.push(
+offers.push(
     {
-        'section': "E-Mountainbikes",
-        'title': "E-Wave 16\"",
+        'section': "E-Mountainbikes Modelljahr 2018",
+        'title': "E-Wave",
         'info': "",
         'price': "2299",
-        'sale': "1990"
+        'sale': "1799"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbikes",
-        'title': "E-Cayolle 20\"",
+        'section': "E-Mountainbikes Modelljahr 2018",
+        'title': "E-Stoke-Lady",
         'info': "",
-        'price': "2999",
+        'price': "2499",
+        'sale': "1999"
+    }
+);
+
+offers.push(
+    {
+        'section': "E-Mountainbikes Modelljahr 2018",
+        'title': "E-Juke",
+        'info': "",
+        'price': "3199",
         'sale': "2599"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbikes",
-        'title': "E-Stoke-Lady 16\"",
+        'section': "E-Mountainbikes Modelljahr 2018",
+        'title': "E-Scope Testrad",
         'info': "",
-        'price': "2499",
-        'sale': "2199"
+        'price': "3999",
+        'sale': "2999"
     }
 );
 
 offers.push(
     {
-        'section': "E-Crossbike",
-        'title': "E-6X 55cm",
+        'section': "Mountainbikes Modelljahr 2018",
+        'title': "Colorado",
         'info': "",
-        'price': "2699",
-        'sale': "2299"
+        'price': "1999",
+        'sale': "1599"
     }
 );
 
 offers.push(
     {
-        'section': "Rennrad",
-        'title': "Izoard 2017, Vollcarbonrahmen mit kompletter Shimano 105 Gruppe",
+        'section': "Mountainbikes Modelljahr 2018",
+        'title': "Sentiero",
         'info': "",
-        'price': "1799",
-        'sale': "1350"
+        'price': "1499",
+        'sale': "1199"
     }
 );
-
-offers.push(
-    {
-        'section': "Testbike",
-        'title': "E-Agnello 20\"",
-        'info': "",
-        'price': "3599",
-        'sale': "2690"
-    }
-);*/
 
 // create array of arrays sorted by section
 

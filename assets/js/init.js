@@ -1,8 +1,8 @@
 "use strict";
 
 // Global variables
-var current_sale = "Sommerangebote 2018";
-var new_offers = "0";
+var current_sale = "Spezialpreise für´s Christkindl";
+var new_offers = "6";
 
 
 var currSaleElement = document.getElementById('to_sale');
