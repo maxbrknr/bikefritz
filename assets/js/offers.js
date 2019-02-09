@@ -7,6 +7,46 @@ var offers = [];
 
 offers.push(
     {
+        'section': "E-Tour Bikes Modelljahr 2019",
+        'title': "E-Triton PT5 Lady 50cm",
+        'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
+        'price': "3499",
+        'sale': "2900"
+    }
+);
+
+offers.push(
+    {
+        'section': "E-Tour Bikes Modelljahr 2018",
+        'title': "E-Triton PT5 Forma 52cm mit leichtem Lackschaden",
+        'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
+        'price': "3499",
+        'sale': "2900"
+    }
+);
+
+offers.push(
+    {
+        'section': "E-Tour Bikes Modelljahr 2018",
+        'title': "E-Lavena PT5 Lady 50cm",
+        'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
+        'price': "2999",
+        'sale': "2499"
+    }
+);
+
+offers.push(
+    {
+        'section': "E-Tour Bikes Modelljahr 2018",
+        'title': "E-Lavena PT5 Forma 46cm",
+        'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
+        'price': "2999",
+        'sale': "2499"
+    }
+);
+
+offers.push(
+    {
         'section': "E-Mountainbikes Modelljahr 2018",
         'title': "E-Wave",
         'info': "",
@@ -96,16 +136,14 @@ for (var key in offersBySection) {
 
         if (offer.info) {
             tmpl = document.getElementById('offer-template').content.cloneNode(true);
-            tmpl.querySelector('.offer-title').innerText = offer.title;
             tmpl.querySelector('.offer-info').innerText = offer.info;
-            tmpl.querySelector('.offer-price').innerText = offer.price;
         } else {
             tmpl = document.getElementById('offer-template-no-info').content.cloneNode(true);
-            tmpl.querySelector('.offer-title').innerText = offer.title;
-            tmpl.querySelector('.offer-price').innerText = "UVP: " + offer.price + ".- €";
-            tmpl.querySelector('.offer-sale').innerText = "Unser Angebot: " + offer.sale + ".- €";
         }
 
+        tmpl.querySelector('.offer-title').innerText = offer.title;
+        tmpl.querySelector('.offer-price').innerText = "UVP: " + offer.price + ".- €";
+        tmpl.querySelector('.offer-sale').innerText = "Unser Angebot: " + offer.sale + ".- €";
 
         offers_container.appendChild(tmpl);
     }
