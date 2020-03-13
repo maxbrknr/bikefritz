@@ -5,9 +5,19 @@
 
 var offers = [];
 
+// offers.push(
+//     {
+//         'section': "",
+//         "title": "",
+//         'info': "",
+//         'price': "",
+//         'sale': ""
+//     }
+// );
+
 offers.push(
     {
-        'section': "E-Tour Bikes Modelljahr 2019",
+        'section': "E-Trekkingräder",
         'title': "E-Triton PT5 Lady 50cm",
         'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
         'price': "3499",
@@ -17,181 +27,151 @@ offers.push(
 
 offers.push(
     {
-        'section': "E-Tour Bikes Modelljahr 2018",
-        'title': "E-Lavena PT5 Lady 50cm",
-        'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
+        'section': "E-Trekkingräder",
+        "title": "E-Lavena Forma 46cm",
+        'info': "",
         'price': "2999",
-        'sale': "2499"
+        'sale': "2400"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbikes Modelljahr 2018",
-        'title': "E-Juke+ 20",
+        'section': "E-Trekkingräder",
+        "title": "E-Bormio, Lady 50cm und Lady-Forma 52cm",
         'info': "",
-        'price': "3199",
-        'sale': "2999"
+        'price': "2999",
+        'sale': "2600"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbikes Modelljahr 2018",
-        'title': "E-Wave",
+        'section': "E-Trekkingräder",
+        "title": "E-Molvenao, Lady-Forma 52cm",
         'info': "",
-        'price': "2299",
+        'price': "1999",
         'sale': "1799"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbikes Modelljahr 2018",
-        'title': "E-Juke",
-        'info': "",
-        'price': "3199",
-        'sale': "2599"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Mountainbikes Modelljahr 2018",
-        'title': "E-Scope Testrad",
-        'info': "",
-        'price': "3999",
-        'sale': "2999"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTB",
-        'title': "Superleichte Kinder-MTBs in allen Farben in 20\" und mit 24\"-Laufrädern",
-        'info': "",
-        'price': "399",
-        'sale': "349"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTB",
-        'title': "Nema 16\"",
-        'info': "",
-        'price': "699",
-        'sale': "649"
-    }
-);
-
-offers.push(
-    {
-        'section': "MTB",
-        'title': "Jura Carbon Fully Modelljahr 2018",
+        'section': "E-Mountainbike",
+        "title": "E-Antelao 18\"",
         'info': "",
         'price': "2999",
+        'sale': "2500"
+    }
+);
+
+offers.push(
+    {
+        'section': "E-Mountainbike",
+        "title": "E-Hazard 20\"",
+        'info': "",
+        'price': "2599",
+        'sale': "2100"
+    }
+);
+
+offers.push(
+    {
+        'section': "E-Mountainbike",
+        "title": "E-Tremalzo 18\"",
+        'info': "",
+        'price': "2699",
         'sale': "2199"
     }
 );
 
 offers.push(
     {
-        'section': "MTB",
-        'title': "Jura Carbon ES Fully Modelljahr 2018",
+        'section': "E-Mountainbike",
+        "title": "E-Scope 20\" (Testrad)",
         'info': "",
-        'price': "4299",
-        'sale': "2899"
+        'price': "3999",
+        'sale': "2500"
     }
 );
 
 offers.push(
     {
-        'section': "MTB",
-        'title': "Sentiero Modelljahr 2018",
+        'section': "Rennräder und Gravelbikes",
+        "title": "Izoard Comp disc 56cm (Mod. 2020)",
         'info': "",
-        'price': "1499",
-        'sale': "1199"
+        'price': "2499",
+        'sale': ""
     }
 );
 
 offers.push(
     {
-        'section': "Crossbikes",
-        'title': "X3",
+        'section': "Rennräder und Gravelbikes",
+        "title": "Stelvio in versch. Größen (Mod. 2019)",
         'info': "",
-        'price': "499",
-        'sale': "449"
+        'price': "1299",
+        'sale': "1050"
     }
 );
 
 offers.push(
     {
-        'section': "Crossbikes",
-        'title': "X5",
-        'info': "",
-        'price': "799",
-        'sale': "739"
-    }
-);
-
-offers.push(
-    {
-        'section': "Crossbikes",
-        'title': "X6 Lady disc 46cm, weiß Modelljahr 2018",
+        'section': "Rennräder und Gravelbikes",
+        "title": "San Remo in versch. Größen (Mod. 2020)",
         'info': "",
         'price': "999",
-        'sale': "799"
+        'sale': ""
     }
 );
 
 offers.push(
     {
-        'section': "Rennräder",
-        'title': "Ventoux disc, kompl. Ultegra 52, 54 und 58cm",
+        'section': "Rennräder und Gravelbikes",
+        "title": "Prestige rot 54cm",
         'info': "",
-        'price': "3099",
-        'sale': "2299"
+        'price': "1699",
+        'sale': "1499"
     }
 );
 
 offers.push(
     {
-        'section': "Rennräder",
-        'title': "Aspin 56cm",
+        'section': "Rennräder und Gravelbikes",
+        "title": "Prestige schwarz 56cm",
         'info': "",
-        'price': "1599",
-        'sale': "1399"
+        'price': "1699",
+        'sale': "1499"
     }
 );
 
 offers.push(
     {
-        'section': "Vorführräder",
-        'title': "FAT-bike Mobster 18\"",
+        'section': "Rennräder und Gravelbikes",
+        "title": "Gavere 58cm (Mod. 2020)",
+        'info': "",
+        'price': "1299",
+        'sale': ""
+    }
+);
+
+offers.push(
+    {
+        'section': "Superschnäppchen für Sparfüchse",
+        "title": "Ventoux disc 56cm Ultegra custom",
+        'info': "Rennrad Vollcarbon, vom Chef gfahren und absolut neuwertig",
+        'price': "3200",
+        'sale': "2200"
+    }
+);
+
+offers.push(
+    {
+        'section': "Superschnäppchen für Sparfüchse",
+        "title": "FAT-Bike Stevens Mobster 18\"",
         'info': "",
         'price': "1499",
-        'sale': "890"
-    }
-);
-
-offers.push(
-    {
-        'section': "Vorführräder",
-        'title': "Cyclocross Namur 52cm",
-        'info': "",
-        'price': "1199",
-        'sale': "890"
-    }
-);
-
-offers.push(
-    {
-        'section': "Vorführräder",
-        'title': "Rennrad Ventoux disc 56cm",
-        'info': "",
-        'price': "3200",
-        'sale': "2199"
+        'sale': "799"
     }
 );
 
