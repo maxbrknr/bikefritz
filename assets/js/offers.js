@@ -18,37 +18,17 @@ var offers = [];
 offers.push(
     {
         'section': "E-Trekkingräder",
-        'title': "E-Triton PT5 Lady 50cm",
-        'info': "PT5 bedeutet: der Akku ist gut geschützt und elegant im Rahmen integriert.",
-        'price': "3499",
-        'sale': "2900"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Trekkingräder",
         "title": "E-Lavena Forma 46cm",
         'info': "",
-        'price': "2999",
-        'sale': "2400"
+        'price': "2799",
+        'sale': "2399"
     }
 );
 
 offers.push(
     {
         'section': "E-Trekkingräder",
-        "title": "E-Bormio, Lady 50cm und Lady-Forma 52cm",
-        'info': "",
-        'price': "2999",
-        'sale': "2600"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Trekkingräder",
-        "title": "E-Molvenao, Lady-Forma 52cm",
+        "title": "E-Molveno Forma 52cm",
         'info': "",
         'price': "1999",
         'sale': "1799"
@@ -57,27 +37,27 @@ offers.push(
 
 offers.push(
     {
-        'section': "E-Mountainbike",
+        'section': "E-Mountainbikes",
         "title": "E-Antelao 18\"",
         'info': "",
         'price': "2999",
-        'sale': "2500"
+        'sale': "2499"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbike",
+        'section': "E-Mountainbikes",
         "title": "E-Hazard 20\"",
         'info': "",
         'price': "2599",
-        'sale': "2100"
+        'sale': "2099"
     }
 );
 
 offers.push(
     {
-        'section': "E-Mountainbike",
+        'section': "E-Mountainbikes",
         "title": "E-Tremalzo 18\"",
         'info': "",
         'price': "2699",
@@ -87,91 +67,41 @@ offers.push(
 
 offers.push(
     {
-        'section': "E-Mountainbike",
+        'section': "E-Mountainbikes",
         "title": "E-Scope 20\" (Testrad)",
         'info': "",
         'price': "3999",
-        'sale': "2500"
+        'sale': "2499"
     }
 );
 
 offers.push(
     {
-        'section': "Rennräder und Gravelbikes",
-        "title": "Izoard Comp disc 56cm (Mod. 2020)",
-        'info': "",
-        'price': "2499",
-        'sale': ""
-    }
-);
-
-offers.push(
-    {
-        'section': "Rennräder und Gravelbikes",
-        "title": "Stelvio in versch. Größen (Mod. 2019)",
-        'info': "",
-        'price': "1299",
-        'sale': "1050"
-    }
-);
-
-offers.push(
-    {
-        'section': "Rennräder und Gravelbikes",
-        "title": "San Remo in versch. Größen (Mod. 2020)",
-        'info': "",
-        'price': "999",
-        'sale': ""
-    }
-);
-
-offers.push(
-    {
-        'section': "Rennräder und Gravelbikes",
-        "title": "Prestige rot 54cm",
+        'section': "Gravelbikes",
+        "title": "Prestige rot 56cm mit leichtem Kratzer",
         'info': "",
         'price': "1699",
-        'sale': "1499"
+        'sale': "1399"
     }
 );
 
 offers.push(
     {
-        'section': "Rennräder und Gravelbikes",
-        "title": "Prestige schwarz 56cm",
-        'info': "",
-        'price': "1699",
-        'sale': "1499"
-    }
-);
-
-offers.push(
-    {
-        'section': "Rennräder und Gravelbikes",
-        "title": "Gavere 58cm (Mod. 2020)",
-        'info': "",
-        'price': "1299",
-        'sale': ""
-    }
-);
-
-offers.push(
-    {
-        'section': "Superschnäppchen für Sparfüchse",
-        "title": "Ventoux disc 56cm Ultegra custom",
-        'info': "Rennrad Vollcarbon, vom Chef gfahren und absolut neuwertig",
+        'section': "Rennrad der Superklasse",
+        "title": "Ventoux disc 56cm",
+        'info': "Vollcarbon, Ultegra, absolut neuwertig, volle Garantie",
         'price': "3200",
-        'sale': "2200"
+        'sale': "1999"
     }
 );
 
 offers.push(
     {
-        'section': "Superschnäppchen für Sparfüchse",
-        "title": "FAT-Bike Stevens Mobster 18\"",
-        'info': "",
-        'price': "1499",
-        'sale': "799"
+        'section': "Rennräder",
+        "title": "Aspin, 56cm",
+        'info': "kompl Ultegra, super Zustand",
+        'price': "1699",
+        'sale': "699"
     }
 );
 

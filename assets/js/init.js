@@ -1,8 +1,8 @@
 "use strict";
 
 // Global variables
-var current_sale = "Saisonende Specials";
-var new_offers = "16";
+var current_sale = "Unsere Angebote";
+var new_offers = "9";
 
 
 var currSaleElement = document.getElementById('to_sale');
