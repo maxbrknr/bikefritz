@@ -17,91 +17,20 @@ var offers = [];
 
 offers.push(
     {
-        'section': "E-Trekkingräder",
-        "title": "E-Lavena Forma 46cm",
-        'info': "",
-        'price': "2799",
-        'sale': "2399"
-    }
-);
-
-offers.push(
+        'section': "E-Mountainbike",
+        "title": "E-Whaka ES 18\"",
+        'info': "E-Mountainbike der Spitzenklasse für Körpergröße 160 bis 170cm (plus-minus) \
+            neuester und stärkster Shimanomotor EP 800 und 630er Akku, Rock Shox Gabel und mit \
+            kompletter XT-Ausstattung; nagelneu!",
+        'price': "5400",
+        'sale': "4600"
+    },
     {
-        'section': "E-Trekkingräder",
-        "title": "E-Molveno Forma 52cm",
-        'info': "",
-        'price': "1999",
-        'sale': "1799"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Mountainbikes",
-        "title": "E-Antelao 18\"",
-        'info': "",
-        'price': "2999",
-        'sale': "2499"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Mountainbikes",
-        "title": "E-Hazard 20\"",
-        'info': "",
-        'price': "2599",
-        'sale': "2099"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Mountainbikes",
-        "title": "E-Tremalzo 18\"",
-        'info': "",
-        'price': "2699",
-        'sale': "2199"
-    }
-);
-
-offers.push(
-    {
-        'section': "E-Mountainbikes",
-        "title": "E-Scope 20\" (Testrad)",
-        'info': "",
-        'price': "3999",
-        'sale': "2499"
-    }
-);
-
-offers.push(
-    {
-        'section': "Gravelbikes",
-        "title": "Prestige rot 56cm mit leichtem Kratzer",
-        'info': "",
-        'price': "1699",
-        'sale': "1399"
-    }
-);
-
-offers.push(
-    {
-        'section': "Rennrad der Superklasse",
-        "title": "Ventoux disc 56cm",
-        'info': "Vollcarbon, Ultegra, absolut neuwertig, volle Garantie",
-        'price': "3200",
-        'sale': "1999"
-    }
-);
-
-offers.push(
-    {
-        'section': "Rennräder",
-        "title": "Aspin, 56cm",
-        'info': "kompl Ultegra, super Zustand",
-        'price': "1699",
-        'sale': "699"
+        'section': "E-Mountainbike",
+        "title": "E-Whaka ES 18\"",
+        'info': "E-Mountainbike Fully aus Modelljahr 2020",
+        'price': "5399",
+        'sale': "3900"
     }
 );
 
