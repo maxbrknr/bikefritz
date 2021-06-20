@@ -19,15 +19,6 @@ offers.push(
     {
         'section': "E-Mountainbike",
         "title": "E-Whaka ES 18\"",
-        'info': "E-Mountainbike der Spitzenklasse für Körpergröße 160 bis 170cm (plus-minus) \
-            neuester und stärkster Shimanomotor EP 800 und 630er Akku, Rock Shox Gabel und mit \
-            kompletter XT-Ausstattung; nagelneu!",
-        'price': "5400",
-        'sale': "4600"
-    },
-    {
-        'section': "E-Mountainbike",
-        "title": "E-Whaka ES 18\"",
         'info': "E-Mountainbike Fully aus Modelljahr 2020",
         'price': "5399",
         'sale': "3900"
