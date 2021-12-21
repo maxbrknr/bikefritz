@@ -57,5 +57,5 @@ jobs:
           # Set this to any SSH commands you wish to run upon completion.
           ssh_command: # optional
           # Set this to true if you wish to upload an archive, default is false.
-          compress: # optional
+          compress: false
 
