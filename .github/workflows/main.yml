@@ -34,7 +34,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      
+
       - name: SFTP Deploy w/ Password
         # You may pin to the exact commit or the version.
         # uses: LubricantJam/SFTP-Deploy-Action@c2ecced9e4b9c0094ad26bad07711ea12051ee21
@@ -45,17 +45,17 @@ jobs:
           # Set this to your SFTP Server IP.
           server: ssh.strato.de
           # Set this to your SFTP Port, default is 22.
-          port: # default is 22
+          port: 22
           # Set this to your SFTP Port.
           ssh_password: ${{ secrets.STRATO_PASSWORD }}
           # Set this to the path to transfer from.
-          local_path: # default is ./*
+          local_path: ./*
           # Set this to the path to transfer to.
-          remote_path: # default is /
+          remote_path: /
           # Set this to any optional SFTP arguments.
           args: # optional
           # Set this to any SSH commands you wish to run upon completion.
           ssh_command: # optional
           # Set this to true if you wish to upload an archive, default is false.
           compress: # optional
-      
+
