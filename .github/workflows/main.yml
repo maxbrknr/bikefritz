@@ -40,20 +40,14 @@ jobs:
         # uses: LubricantJam/SFTP-Deploy-Action@c2ecced9e4b9c0094ad26bad07711ea12051ee21
         uses: LubricantJam/SFTP-Deploy-Action@v2.1
         with:
-          # Set this to your SFTP Username.
           username: ${{ secrets.STRATO_USER }}
-          # Set this to your SFTP Server IP.
           server: ssh.strato.de
-          # Set this to your SFTP Port, default is 22.
           port: 22
-          # Set this to your SFTP Port.
           ssh_password: ${{ secrets.STRATO_PASSWORD }}
-          # Set this to the path to transfer from.
           local_path: ./*
-          # Set this to the path to transfer to.
           remote_path: /
           # Set this to any optional SFTP arguments.
-          args: # optional
+          args: -r
           # Set this to any SSH commands you wish to run upon completion.
           ssh_command: # optional
           # Set this to true if you wish to upload an archive, default is false.
